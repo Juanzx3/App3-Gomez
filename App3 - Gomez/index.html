@@ -26,8 +26,7 @@
 		<div data-role="footer" data-position="fixed" data-id="footer">
 			<div data-role="navbar">
 			    <ul>
-			        <li><a href="#" data-role="button" data-icon="arrow-l">Atrás</a></li>
-			        <li><a href="#" data-role="button" data-icon="home">Home</a></li>
+			        <li><a href="javascript:window.history.back();" data-role="button" data-icon="arrow-l">Atrás</a></li>
 			        <li><a href="#dialog" data-role="button" data-icon="info">Info</a></li>
 			        <li><a href="#phonegap" data-role="button" data-icon="arrow-r">Siguiente</a></li>
 			    </ul>
@@ -192,12 +191,27 @@
 			<h1>Contacto</h1>
 		</div>
 		<div data-role="content"> 
-          <ol data-role="listview">
-            <li><a href="#">Contacto 1</a></li>
-            <li><a href="#">Contacto 2</a></li>
-            <li><a href="#">Contacto 3</a></li>
-            <li><a href="#">Contacto 4</a></li>
-            <li><a href="#">Contacto 5</a></li>
+          <ul data-role="listview" data-filter="true" data-filter-placeholder="Filtro" data-inset="true">
+            <li><a href="#">
+            	<h3>Francisco Gomez</h3>
+                <p>Alumno de la Facultad de Informática Mazatlán</p>
+            </a></li>
+            <li><a href="#">
+            	<h3>Jessica Cabanillas</h3>
+                <p>Alumno de la Facultad de Informática Mazatlán</p>
+            </a></li>
+            <li><a href="#">
+            	<h3>Alfredo Tapia</h3>
+                <p>Alumno de la Facultad de Informática Mazatlán</p>
+            </a></li>
+            <li><a href="#">
+            	<h3>Isadora Soto</h3>
+                <p>Alumno de la Facultad de Informática Mazatlán</p>
+            </a></li>
+            <li><a href="#">
+            	<h3>Damian Jasso</h3>
+                <p>Alumno de la Facultad de Informática Mazatlán</p>
+            </a></li>
           </ol>
         </div>
 		<div data-role="footer" data-position="fixed">
